@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<title>C&J's Mobile</title>
+
+
+<head>
+
+<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<style> 
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+  </style>
+
+
+<div class="fixed-bg"></div>
+
+<body>
+
+		
+
+	
+	<header>
+	
+		<div class="container">
+
+			<div class="button"><a href="https://www.grubhub.com/">Pick Up</a></div><div class="button"><a href="https://www.grubhub.com/">Delivery</a></div>
+			
+			<nav><ul><li><a href="#">Home Page</a></li><li><a href="#Menu">Menu</a></li><li><a href="#Catering">Catering</a></li><li><a href="#About Us">About Us</a></li><li><a href="#Contact">Contact</a></li></ul></nav>
+			
+			
+		</div>
+		
+	</header>
+
+	<section class="hero">
+	
+		<div class="container">
+		
+		
+
+		
+
+			<h1>Welcome to C&J's Mobile</h1>
+			
+			<p>Where we offer the finest gourmet sandwhiches with fresh cut fries</p>
+
+			<p>Mission Statement: “To leverage the power of good food and an open heart to lovingly serve our clients, employees, society and the earth.”</p>
+
+
+			
+		
+		</div>
+		
+		</div>
+		
+	</section>
+
+	<section class="features">
+		<div class="box">
+			<section id="Menu">
+	
+	<h2>Menu</h2>
+	<h6>Menu Items Subject To Change Daily</h6>
+
+	
+
+
+	<aside><img src="Italian Beef.jpg"><h3>Italian Beef</h3></aside>
+	
+	<aside><img src="Polish.jpg"><h3>Maxwell Street Polish</h3></aside>
+	
+	<aside><img src="Pulled Pork.jpg"><h3>Pulled Pork Sandwhich</h3></aside>
+
+	<aside><img src="Sirloin.jpg"><h3>Sirloin Steak Sandwhich</h3></aside>
+
+	<aside><img src="Turkey.jpg"><h3>Grilled Turkey Burger</h3></aside>
+
+	<aside><img src="Burger.jpg"><h3>Bacon Cheeseburger</h3></aside>
+
+	<aside><img src="Catfish.jpg"><h3>Catfish Sandwhich</h3></aside>
+
+	<aside><img src="Fried Chicken.jpg"><h3>Fried Chicken Sandwhich</h3></aside>
+
+		<aside><img src="Grilled.jpg"><h3>Grilled Chicken Sandwhich</h3></aside>
+
+	<aside><img src="Philly Cheesesteak.jfif"><h3>Philly Cheesesteak</h3></aside>
+
+	<aside><img src="cheesefries.jfif"><h3>Loaded Cheese Fries</h3></aside>
+
+	<aside><img src="Loaded Nachos.jpg"><h3>Loaded Nachos</h3></aside>
+
+	<aside><img src="Wings.jpg"><h3>Fried Chicken Wings</h3></aside>
+
+	<aside><img src="tacos.jfif"><h3>Tacos</h3></aside>
+
+	<aside><img src="turkey legs.jfif"><h3>Turkey Legs</h3></aside>
+</div>
+
+
+	</section>
+
+	
+	
+	<section class="Catering">
+			
+			
+				<section id="Catering"></section>
+			
+			<h2>Catering</h2>
+			
+			<p><br>Looking for corporate event catering or a corporate meal program? Let C&J's handle everything from the portioning, delivery, setup, and even cleanup for your next catered meal!</br> <br>We deliver straight to your office or set up onsite with our various unit selection.</br> <br>Contact us today for a brief consultation, and let us handle your next meal.</br></p>
+
+			
+			<marquee behavior="scroll" direction="left" width="90%" height="600px" scrollamount="20" vspace="60px" hspace="60px">
+					<img src="Cater.jpg" width="125" height="82" alt="Flying Bat">
+					<img src="Cater1.jpg" width="125" height="82" alt="Flying Bat">
+					<img src="Cater2.jpg" width="125" height="82" alt="Flying Bat">
+					<img src="Cater3.jpg" width="125" height="82" alt="Flying Bat">
+					<img src="Cater4.jpg" width="125" height="82" alt="Flying Bat">
+					<img src="Cater6.jpg" width="125" height="82" alt="Flying Bat">
+					</marquee>
+		
+			
+			</div>
+			
+			
+	
+	</section>	
+
+	<section class="about">
+	
+		<div class="container">
+			<section id="About Us"></section>
+		
+			<div class="organizecontent">
+				
+				
+				
+				<h2>About Us</h2>
+			
+				<p>With over 25 years of experience our restaurant strives to become our customers’ favorite place to eat and drink. With teamwork and trust we provide support for our employees and encourage them to make their own decisions.With sustainability we always source ingredients from sustainable, local suppliers. </p>
+				
+				</div>
+				
+				
+		
+						
+			</div>
+	
+		</div>
+	
+	</section>
+
+	<section class="Contact Us">
+			
+		<div class="Contact">
+			<section id="Contact"></section>
+		
+		</div>
+		<form action="#" method="post">
+			<h1>Contact Us</h1>
+			<label for="username" >First Name:</label>
+			<input type="text" id="username" name="username" /><br/>
+			<label for="nickname">Last Name:</label>
+			<input type="text" id="nickname" name="nickname" /><br/>
+			<label for="email">Email Address:</label> 
+			<input type="email" id="email" name="email" /><br/>
+			<label for="phone">Telephone Number:</label>
+			<input type="tel" id="phone" name="phone" /><br/>
+			<label for="comment"> Comment: </label><br/>
+		<textarea id="address" rows="5"></textarea>
+			<br><button class="push">Submit</button><br/>
+			
+			<br><button class="push">Reset</button><br/>
+					
+		</form>
+
+</section>	
+	
+	
+
+
+
+
+<section class="get">
+	
+		<div class="container">
+	
+			<h2>Get it in the App Store now!</h2>
+
+			<div class="button floatright"><a href="https://www.apple.com/app-store/"><img src="appstore.png"></a></div>
+	
+		</div>
+
+	
+	</section>
+
+
+</body>
+</html>
