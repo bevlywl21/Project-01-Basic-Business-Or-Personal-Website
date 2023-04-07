@@ -1,0 +1,174 @@
+/*UTILITY*/
+
+
+
+/* THESE RULES APPLY TO THE HIGH REZ DISPLAY, AND CASCADE DOWN TO THE MEDIUM AND LOW REZ DISPLAYS */
+
+.fixed-bg {
+	background-image: url("Logo 2023.png");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+  } 
+
+body { margin: 0; font-family: Verdana, sans-serif; color: rgb(0, 0, 0, 0.5); background-color: black}
+
+
+/*STRUCTURE*/
+
+header { width: 100%; height: 80px; background: rgb(99, 101, 223); padding: 5px 0; margin-bottom: 5px;  }
+	nav { float: center; margin-left: 340px; }
+	nav li { display: inline-block; margin-right: 20px; font-weight: bold; font-size: 18px; text-align: left; position: relative; }
+	nav li a { color: rgb(239, 245, 248); text-decoration:wavy; }
+	nav li a:hover { color: rgb(150,150,150); text-decoration: underline; }
+	.button { width: 100px; height: 30px; background: linear-gradient(#c8c8c8, #0453fd); text-align: center; padding: 15px 5px 5px; margin: 5px 5px 0 0; border: 1px solid rgb(150,150,150); border-radius: 5px; cursor: pointer; float: left;}
+	.button a { color: rgb(252, 249, 249); text-decoration: none; }
+	.button:hover { background: linear-gradient(#969696, #c8c8c8); }
+
+section.hero { width: 100%; height: 400px; background-color: rgba(247, 245, 245, 0.5); background: url(blurred.jfif); background-size: 100% 100%; padding: 5px 0; margin-bottom: 300px; text-align: center; font-size: 25px; color: black; text-shadow: #fcfcfd;}
+	.herocontent { width: 400px; float: left; margin-left: 20px; padding-top: 40px; }
+	section.hero h1 { font-size: 50px; margin-bottom: -10px; }
+	section.hero p { margin-bottom: 50px; font-size: 35px; }
+	
+	
+	
+
+section.features { width: 90%; height: 900px; background: rgba(3, 148, 245, 0.993); margin: 0 auto 300px; padding: 3px 0; border-bottom-left-radius: 20px; border-top-right-radius: 20px; display: flex ;}
+	section.features h2 { font-size: 50px; text-align: center; margin-bottom: -20px; color: black; }
+	section.features h6 { font-weight: normal; text-align: center; margin-bottom: 60px; color: black; }
+	section.features aside { width: 286px; height: 200px; float: left; text-align: center; margin-left: 50px; color: black; }
+	section.features aside img { width: 100%; height: 150px; background: rgb(200,200,200); float: center; justify-items: auto; border-radius: 30px; }
+	section.sandwhiches {font-size: 40px; text-align: center; margin-bottom: -20px; }
+	
+
+
+section.Catering { width: 90%; height: 800px; background: rgb(3, 148, 245, 0.993); margin: 0 auto 300px; margin-bottom: 300px; padding: 5px 0; border-bottom-left-radius: 20px; border-top-right-radius: 20px; justify-items: auto; justify-items: auto;}
+	section.Catering h2 { font-size: 50px; text-align: center; margin-bottom: -10px; color: black; }
+	section.Catering p {color: black; margin-bottom: 50px; font-size: 35px; }
+	section.Catering img { width: 300px; height: 250px; background: rgb(200,200,200); float: center; justify-items: auto; margin-bottom: 100px; border-radius: 20%; scroll-padding: 15px; }
+
+
+
+section.about  { width: 90%; height: 600px; background: url(History.jpg); background-size: 100% 100%; margin: 0 auto 300px; padding: 5px 0; margin-bottom: 300px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; }
+	section.about h2 { font-size: 50px; text-align: center; margin-bottom: -10px; color: black; }
+  section.about p {color: black; font-size: 30px; line-height: 80px ; }
+
+
+
+section.Contact { width: 90%; height: 400px; background:url(blurred.jfif); background-size: 100% 100%; margin: 0 auto 300px; padding: 5px 0; text-align:center; font-size: larger; color:black; border-bottom-left-radius: 20px; border-top-right-radius: 20px; line-height: 25px; }
+	
+
+section.get { width: 100%; height: 100px; background: rgb(99, 101, 223); padding: 5px 0; border-bottom-left-radius: 20px; border-top-right-radius: 20px; }
+		section.get h2 { font-family: 'Oleo Script Swash Caps', cursive; font-size: 200%; color: rgb(255,255,255); margin-left: 60px; margin-top: 25px; font-weight: normal; float: left; }
+	section.get .button { width: 150px; height: 50px; margin-right: 80px; margin-top: 25px; padding-top: 7px; font-size: 60%; }
+
+footer { width: 100%; height: 60px; background: rgb(200,200,200); padding: 5px 0; text-align: center; }
+		footer.nav { float: center; }
+		footer.nav li { margin-right: 20px; font-weight: bold; font-size: 18px; text-align: left; position: relative; }
+		footer.nav li a { color: rgb(12, 165, 241); text-decoration:wavy; }
+		footer.nav li a:hover { color: rgb(150,150,150); text-decoration: underline; }
+
+.container { width: 940px; height: 100%; margin: 0 auto; }
+
+
+/* THESE RULES APPLY TO THE MEDIUM REZ DISPLAY, AND CASCADE DOWN TO THE LOW REZ DISPLAY */
+
+@media (max-width: 768px) { 
+
+	body {  }
+	
+	header {  }
+		#logo {  }
+		#logo img { width: 25%; }
+		nav {  }
+		nav li { margin-right: 15px; font-size: 90%; }
+		nav li a {  }
+		input.search { width: 10%; }
+	
+	section.hero { background-size: 770px 410px; margin-bottom: 0; max-height: 100%; padding-bottom: 10px; }
+		.heroimage { margin: 50px 0 0 20px; width: 50%; }
+		.herocontent { width: 40%; margin-left: 10px; padding-top: 10px; }
+		section.hero h1 { font-size: 290%; }
+		section.hero p { margin-bottom: 20px; }
+		.button { width: 200px; height: 35px; padding-top: 10px; font-size: 150%; }
+		.button a {  }
+		.button:hover {  }
+	
+	section.features { width: 100%; }
+		section.features h2 { margin-top: 20px; }
+		section.features h4 {  }
+		section.features aside { width: 33%; height: auto; margin-left: 0; }
+		section.features aside img { width: 100%; height: auto; }
+		section.features aside h3 {  }
+	
+	section.organize { padding: 0 0 80px 0; }
+		section.organize img, section.share img { width: 50%; height: auto; margin-left: 10px; margin-top: 60px; }
+		.organizecontent, .sharecontent { width: 40%; }
+		.organizecontent h2, .sharecontent h2 { line-height: 90%; margin-bottom: 5px; margin-left: 10px; }
+		.organizecontent p, .sharecontent p { font-size: 90%; }
+	
+	section.share { width: 100%; padding: 0 0 80px 0; }
+	
+	section.get {  }
+		section.get h2 { font-size: 180%; margin-left: 20px; }	
+		section.get .button { margin-right: 20px; }
+	
+	footer {  }
+		footer nav {  }
+		footer nav li a {  }
+		
+	.container { width: 100%; }
+	
+	 }
+
+	 /* THESE RULES APPLY TO THE LOW REZ DISPLAY, AND DO NOT CASCADE */
+
+@media (max-width: 320px) { 
+
+	body { }
+	
+	header { height: auto; }
+		#logo { margin: 0 auto; width: 200px; }
+		#logo img { margin: 0 0 10px 0; width: 200px; }
+		nav { float: none; margin-left: -15px; }
+		nav li {  }
+		nav li a {  }
+		input.search { display: none; }
+	
+	section.hero { background-size: 1000px 800px; padding-bottom: 20px; }
+		.heroimage { float: none; width: 100%; margin: 20px 0 -50px 0; }
+		.herocontent { width: 90%; margin: 0 auto; padding: 0; float: none; text-align: center; }
+		section.hero h1 {  }
+		section.hero p {  }
+		.button { margin: 0 auto; }
+		.button a {  }
+		.button:hover {  }
+	
+	section.features { width: 90%; height: auto; }
+		section.features h2 { line-height: 100%; margin-bottom: -15px; }
+		section.features h4 {  }
+		section.features aside { float: none; width: 100%; }
+		section.features aside img {  }
+		section.features aside h3 {  }
+	
+	section.organize { width: 100%; height: auto; }
+		section.organize img, section.share img { width: 100%; float: none; }
+		.organizecontent, .sharecontent { float: none; width: 90%; margin: 0 auto; padding: 0 10px; text-align: center; }
+		.organizecontent h2, .sharecontent h2 {  }
+	
+	section.share { width: 90%; height: auto; }
+	
+	section.get { height: auto; text-align: center; padding: 20px 0; }
+		section.get h2 { float: none; line-height: 100%; margin: 0 0 10px 0; }	
+		section.get .button { float: none; margin: 0 auto; }
+	
+	footer {  }
+		footer nav {  }
+		footer nav li a {  }
+		
+	.container { width: 90%; }
+	
+	 }
